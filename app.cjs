@@ -1,7 +1,6 @@
-// Old CommonJS
-// const express = require('express');
-import express from 'express';
-import bodyParser from 'body-parser'; // ila kayn f app.js
+// CommonJS version (for .cjs)
+const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
